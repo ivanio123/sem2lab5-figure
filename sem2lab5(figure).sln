@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sem2lab5(figure)", "sem2lab5(figure).csproj", "{79D906B7-A98F-43C6-969A-AED47AAD68D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79D906B7-A98F-43C6-969A-AED47AAD68D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79D906B7-A98F-43C6-969A-AED47AAD68D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79D906B7-A98F-43C6-969A-AED47AAD68D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79D906B7-A98F-43C6-969A-AED47AAD68D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54ABA212-E49C-4D70-BB64-15B887A7DBD9}
+	EndGlobalSection
+EndGlobal
