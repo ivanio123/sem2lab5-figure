@@ -44,7 +44,7 @@
             this.addFigurebutton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.addFigurebutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.addFigurebutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.addFigurebutton.Location = new System.Drawing.Point(399, 17);
+            this.addFigurebutton.Location = new System.Drawing.Point(394, 19);
             this.addFigurebutton.Margin = new System.Windows.Forms.Padding(4);
             this.addFigurebutton.Name = "addFigurebutton";
             this.addFigurebutton.Size = new System.Drawing.Size(311, 63);
