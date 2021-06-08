@@ -36,7 +36,7 @@ namespace sem2lab5_
                 case FigureType.Circle:                 
                     figure = new Circle(20, 200, 45);
 
-                    Task task = new Task(() =>  // перший спосіб виклику потоку через його екземпляр
+                    Task task = new Task(() => 
                     {
                         while (true)
                         {
@@ -49,7 +49,7 @@ namespace sem2lab5_
 
                             Thread.Sleep(100);
                             Invoke(new MethodInvoker(delegate {
-                                panel1.Refresh(); // або panel1.Invalidate();
+                                panel1.Refresh(); 
                             }));                             
                         }
                     });
@@ -62,7 +62,7 @@ namespace sem2lab5_
               
                     figure = new Rhomb(20, 200, 45, 45);
 
-                    Task.Run(() =>   // другий спосіб виклику потоку напряму
+                    Task.Run(() =>  
                     {
                         while (true)
                         {
